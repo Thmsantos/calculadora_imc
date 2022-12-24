@@ -1,0 +1,74 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #b9b9ff, #2828d4);
+}
+.exterior-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8.9%;
+  padding-bottom: 8.9%;
+}
+
+.interior-container{
+  width: 450px;
+  height: 500px;
+  border: 5px;
+  border-radius: 16px;
+  background-color: #2828d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.botao{
+  margin-top: 20px;
+}
+
+button{
+  height: 35px;
+  width: 150px;
+  border: 3px solid #171785;
+  background-color: #171785;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 16px;
+}
+
+
+.resultado{
+  font-size: 15px;
+  margin-bottom: 30px;
+  border: 3px solid #171785;
+  color: #fff;
+  background-color: #171785;
+  border-radius: 16px;
+  text-align: center;
+  width: 160px;
+  height: 22.5px;
+}
+
+input {
+  margin-bottom: 30px;
+  border: 1px solid #ffffff;
+  color: #fff;
+  background-color: #171785;
+  border-radius: 16px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+}
+
+.texto{
+  margin-top: 20px;
+}
